@@ -1,0 +1,156 @@
+1.
+What will be the output of the following?
+x = 5
+y = "5"
+print(type(x), type(y))
+
+<class 'int'> <class 'int'>
+<class 'str'> <class 'str'>
+<class 'int'> <class 'str'>
+<class 'float'> <class 'str'>
+
+Explanation:
+x = 5 , এটা একটি integer (সংখ্যা) =  int
+y = "5",  এটা string (কারণ quotes আছে) = str
+তাই output হবে =  <class 'int'> <class 'str'>
+
+2.
+What is the default data type of the input() function in Python?
+int
+str
+float
+bool
+
+Explanation: Python-এ input() দিয়ে যাই ইনপুট নাও না কেন, সেটা defaultভাবে string হিসেবে নেয়
+যদি number দরকার হয়, তাহলে convert করতে হয়। 
+
+3.
+নিচের code এর output কী হবে?
+x = 5
+if x > 3:
+    print("A")
+elif x > 1:
+    print("B")
+else:
+    print("C")
+
+A
+B
+C
+কিছুই প্রিন্ট হবে না
+
+Explanation:
+x = 5 হবে। 
+তাহলে x > 3 → True
+Python প্রথম True condition পেলেই সেটা execute করে
+তাই "A" print হবে
+elif আর check করবে না
+
+4.
+নিচের কোডের output কী?
+
+for i in range(3):
+    if i == 1:
+        break
+    print(i)
+
+0
+0 1
+1
+0 2
+
+Explanation:
+range(3) → 0, 1, 2
+Loop চলবে:
+i = 0 → print হবে  0
+i = 1 → break এঁর জন্য  loop stop হবে। 
+তাই output  0 হবে। 
+
+
+5.
+নিচের কোডের output কী?
+for i in range(5, 0, -1):
+    if i % 2 == 0:
+        continue
+    if i == 3:
+        break
+    print(i, end="")
+
+
+531
+5
+53
+কিছুই না
+
+Explanation:
+range(5, 0, -1) → 5, 4, 3, 2, 1
+Step-by-step:
+i = 5 তখন, i হচ্ছে odd তাই print হবে 5। 
+i = 4 তখন, i হচ্ছে even তাই continue এঁর জন্য skip হবে। 
+i = 3 তখন এঁর জন্য  loop stop হবে। 
+তাই শুধু 5 print হবে। 
+
+6.
+What will be the output?
+nums = [2,4,6,8,10]
+nums[2] = nums[2] * nums[0]
+print(nums)
+
+
+[2, 4, 12, 8, 10]
+[2, 4, 6, 8, 10]
+[4, 8, 12, 16, 20]
+Error
+Explanation: 
+এইখানে 
+nums[2] মানে ৩য় এলিমেন্ট → 6
+nums[0] মানে ১ম এলিমেন্ট → 2
+তাহলে nums[2] = nums[2] * nums[0] এর জন্য
+nums[2] = 6 * 2 = 12
+2 index এর মধ্যে 12 assign হয়ে যাবে। 
+তাই নতুন লিস্ট হবে: [2, 4, 12, 8, 10]
+
+
+
+7.
+What is the output?
+x = [1,2,3,2,4]
+x.remove(4)
+x.pop()
+print(x)
+
+
+[1,3,2]
+[1,3,4]
+[1,2,3]
+[1,3]
+Explanation: 
+x = [1,2,3,2,4]
+x.remove(4) এর ফলে 4 মুছে যাবে , এরপর list টি হবে→ [1,2,3,2]। 
+x.pop() এর ফলে শেষ element (শেষের 2) বাদ পড়ে যাবে, এরপর list টি হবে→ [1,2,3]
+
+8.
+What is the output of {'a': 1, 'b': 2}.keys()?
+['a', 'b']
+('a', 'b')
+dict_keys(['a', 'b'])
+{'a', 'b'}
+Explanation: keys() একটি dict_keys object রিটার্ন করে যা key-এর List দেখায়।
+
+9.
+Which method is used to remove an item from a dictionary by key?
+remove()
+delete()
+pop()
+clear()
+Explanation:  pop(key) নির্দিষ্ট key-value pair dictionary থেকে মুছে দেয়।
+
+10.
+Which of the following data structures stores data as key-value pairs?
+List
+Tuple
+Dictionary
+Set
+Explanation: Dictionary key-value mapping আকারে ডেটা সংরক্ষণ করে।
+
+
