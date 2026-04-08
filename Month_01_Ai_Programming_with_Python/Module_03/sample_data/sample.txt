@@ -1,4 +1,2 @@
-I love Mango
-I am from Rajshahi
-Rajshahi is very Famous for Mango
-Rajshahi is the best city
+I am learning Python.
+Python is a great programming language.
