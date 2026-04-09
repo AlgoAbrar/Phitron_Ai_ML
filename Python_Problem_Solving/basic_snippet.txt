@@ -1,0 +1,87 @@
+import sys  # fast input-output er jonno sys module import kori
+input = sys.stdin.readline  # fast input use korbo (Codeforces e important)
+
+# ------------------ FUNCTION TYPES ------------------
+
+# 1. Parameter + Return
+def add_numbers(a, b):  # parameter hishebe a, b nibo
+    return a + b  # result return korbo
+
+
+# 2. No Parameter + Return
+def get_fixed_value():  # kono input parameter nai
+    return 100  # ekta fixed value return korbo
+
+
+# 3. Parameter + No Return
+def print_sum(a, b):  # parameter ase
+    print(a + b)  # directly print korbo, return nai
+
+
+# 4. No Parameter + No Return
+def say_hello():  # kono parameter nai
+    print("Hello")  # sudhu print korbo
+
+
+# ------------------ SOLVE FUNCTION ------------------
+
+def solve():
+    data = input().split()  # ek line input niye split kore list banabo
+
+    # 👉 dhore nilam sob integer (CF e mostly eta thake)
+    nums = list(map(int, data))  # sob value ke integer e convert korbo
+
+    total = sum(nums)  # sob number jog korbo
+    maximum = max(nums)  # maximum ber korbo
+    minimum = min(nums)  # minimum ber korbo
+
+    # example condition
+    if total % 2 == 0:  # jodi total even hoy
+        print("YES")  # YES print korbo
+    else:
+        print("NO")  # NO print korbo
+
+
+# ------------------ MAIN DRIVER ------------------
+
+t = int(input())  # test case number
+
+for _ in range(t):  # t bar loop chalabo
+    solve()  # prottek test case solve korbo
+
+
+# N number testcase with N number of values
+def solve():
+    n = int(input())  # koyta value lagbe
+
+    arr = []  # empty list
+
+    while len(arr) < n:  # jotokkhon n ta value na pai
+        arr += list(map(int, input().split()))  # input add korte thakbo
+
+    # operation
+    print(sum(arr))
+
+# alternative
+import sys  # fast input-output er jonno
+input = sys.stdin.readline  # fast input use korbo
+
+def solve():
+    n = int(input())  # ei test case e koyta value nibo seta input nebo
+
+    arr = list(map(int, input().split()))  # n ta integer input niye list banabo
+
+    # safety check
+    # jodi input exactly n na hoy
+    # while len(arr) < n:
+    #     arr += list(map(int, input().split()))
+
+    # example operation
+    total = sum(arr)  # sob value jog korbo
+    print(total)  # output dibo
+
+
+t = int(input())  # total test case
+
+for _ in range(t):  # t bar loop
+    solve()  # prottek test case handle korbo

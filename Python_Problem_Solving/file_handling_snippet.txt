@@ -1,0 +1,48 @@
+try:
+    with open("input.txt", "r") as f:  # with use korle auto close hoy
+        lines = f.readlines()  # prottek line list e store korbo
+
+except FileNotFoundError:
+    print("File not found")
+
+except Exception as e:
+    print("Error:", e)
+
+else:
+    # jodi error na hoy tahole process korbo
+    for line in lines:  # prottek line e loop
+        nums = list(map(int, line.split()))  # line theke integer list banabo
+        print(sum(nums))  # example operation: sum print
+
+
+# Writing to File (Output.txt)
+try:
+    with open("output.txt", "w") as f:  # write mode e file open korbo
+        f.write("Hello World\n")  # file e text likhbo
+
+except Exception as e:
+    print("Error:", e)
+
+
+#Full Practice Setup (Input.txt → Output.txt)
+
+try:
+    with open("input.txt", "r") as fin, open("output.txt", "w") as fout:
+        t = int(fin.readline())  # test case number read korbo
+
+        for _ in range(t):  # t bar loop
+            n = int(fin.readline())  # koyta number ase
+            arr = []
+
+            while len(arr) < n:  # jodi multiple line e thake
+                arr += list(map(int, fin.readline().split()))  # input add korbo
+
+            result = sum(arr)  # operation
+
+            fout.write(str(result) + "\n")  # output file e likhbo
+
+except FileNotFoundError:
+    print("input.txt file paoa jay nai")
+
+except Exception as e:
+    print("Error:", e)
