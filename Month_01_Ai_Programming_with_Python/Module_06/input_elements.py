@@ -22,6 +22,13 @@ print(type(age))
 
 pressed= st.button("Enter to confirm",type="primary")
 
+selected= st.selectbox("Choose your profession", ( "Student", "Employee", "Businessman"), index=None, accept_new_options= True)
+
+print(type(selected))
+
+st.write("You selected ", selected)
+
+
 if pressed:
     st.write(f"Your name is {name} and your age is {age}")
 
