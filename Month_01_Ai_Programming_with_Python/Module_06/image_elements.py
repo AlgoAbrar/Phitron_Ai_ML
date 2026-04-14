@@ -27,4 +27,4 @@ if image1:
 else:
     st.write("No Image Uploaded")
     #internal image
-    st.image("images/img1.jpg")
+    st.image("images/img1.jpg") # we can also add web url
