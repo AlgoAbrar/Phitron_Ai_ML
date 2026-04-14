@@ -11,7 +11,7 @@ client = genai.Client(api_key=api_key)
 
 response = client.models.generate_content(
     model="gemini-3-flash-preview",
-    contents="Tell me about BAUET in 100 words"
+    contents="Tell me about BAUET in 100 words" # we can take image, text input anything
 )
 
 #print(response.text)
