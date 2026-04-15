@@ -17,3 +17,7 @@
         streamlit deployment
         
 ## Create .env file:
+
+GEMINI_API_KEY
+
+pillow diye image type convert

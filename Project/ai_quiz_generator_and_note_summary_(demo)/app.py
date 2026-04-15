@@ -1,4 +1,6 @@
 import streamlit as st
+from api_calling import note_generator
+from PIL import Image
 
 st.title("AI Note Summary and Quiz Generator",anchor=False)
 st.markdown("Upload max 3 photos")
@@ -46,8 +48,11 @@ if pressed_button:
         #note
         with st.container(border=True):
             st.subheader("Your Note",anchor=False)
+            
             # portion below will be replaced by Ai  
-            st.text("Note will be shown Here")
+            #st.text("Note will be shown Here")
+            generated_notes= note_generator(images)
+            st.text(generated_notes)
             
         # Audio
         with st.container(border=True):
