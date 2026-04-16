@@ -1,71 +1,100 @@
-import streamlit as st
-from api_calling import note_generator
+import streamlit as st 
+from api_calling import note_generator,audio_transcription,quiz_generator
 from PIL import Image
 
-st.title("AI Note Summary and Quiz Generator",anchor=False)
-st.markdown("Upload max 3 photos")
+#title
+st.title("Note Summary and Quiz Generator")
+st.markdown("Upload upto 3 images to generate Note summary and Quizzes")
 st.divider()
 
-# Sidebar section
 with st.sidebar:
-    #image works
     st.header("Controls")
-    images= st.file_uploader("Upload Images:",
-                     type=['jpg','jpeg','png'],
-                     accept_multiple_files=True
-                     )
+
+    #image
+    images = st.file_uploader(
+        "Upload the photos of your note",
+        type=['jpg','jpeg','png'],
+        accept_multiple_files=True
+    )
+
+    pil_images =[]
+
+    for img in images:
+        pil_img = Image.open(img)
+        pil_images.append(pil_img)
+
     if images:
         if len(images)>3:
             st.error("Upload at max 3 images")
         else:
-            col= st.columns(len(images))
+            st.subheader("Uploaded images")
             
-            st.subheader("Your Uploaded Images")
+            col = st.columns(len(images))
+
             
+
             for i,img in enumerate(images):
                 with col[i]:
                     st.image(img)
-    
-    # Difficulty Select
-    selected_option= st.selectbox("Enter the Difficulty of your Quiz",
-                 ("Easy", "Medium", "Hard"),
-                 index=None
-                 )
-    st.markdown(f"You selected ***{selected_option}*** as Difficulty")
-    # if selected_option:
-    #     st.markdown(f"You selected ***{selected_option}*** as Difficulty")
-    # else:
-    #     st.error("Select a difficulty")
-    pressed_button= st.button("Click for Magic", type="primary")
-    
-    
-if pressed_button:
+
+    #difficulty 
+    selected_option = st.selectbox(
+        "Enter the difficulty of your quiz",
+        ("Easy","Medium","Hard"),
+        index = None
+    )
+
+    pressed= st.button("Click the button to initiate AI",type="primary")
+
+
+if pressed:
     if not images:
-        st.error("Please Upload Images")
+        st.error("You must upload 1 image")
     if not selected_option:
-        st.error("You must select a Difficulty")
+        st.error("You must select a difficulty")
+    
     if images and selected_option:
-        #note
+
+        #note summary
+
         with st.container(border=True):
-            st.subheader("Your Note",anchor=False)
-            
-            # portion below will be replaced by Ai  
-            #st.text("Note will be shown Here")
-            generated_notes= note_generator(images)
-            st.text(generated_notes)
-            
-        # Audio
+            st.subheader("Your note")
+
+            #the portion below will be replaced by API Call
+
+            with st.spinner("AI is writing notes for you"):
+                generated_notes = note_generator(pil_images)
+                st.markdown(generated_notes)
+
+
+        #Audio explaination
         with st.container(border=True):
-            st.subheader("Audio Explaination",anchor=False)
-            # portion below will be replaced by Ai  
-            st.text("Note will be shown Here")
-        
-        # Quiz
+            st.subheader("Audio Transcription")
+
+
+
+            #the portion below will be replaced by API Call 
+            with st.spinner("AI is generating audio transcript for you"):
+
+                #clearing the markdown
+
+                generated_notes = generated_notes.replace("#","")
+                generated_notes = generated_notes.replace("*","")
+                generated_notes = generated_notes.replace("-","")
+                generated_notes = generated_notes.replace("`","")
+
+
+                audio_transcript = audio_transcription(generated_notes)
+                st.audio(audio_transcript)
+
+
+        #quiz
+
         with st.container(border=True):
-            st.subheader("Let's Have a Test",anchor=False)
-            st.markdown(f"You selected ***{selected_option}*** as Difficulty")
-            # portion below will be replaced by Ai  
-            st.text("Note will be shown Here")
-        
-else:
-    pass
+            st.subheader(f"Quiz ({selected_option}) Difficulty")
+
+            #the portion below will be replaced by API Call 
+
+            with st.spinner("AI is generating the quizzes"):
+                quizzes = quiz_generator(pil_images,selected_option)
+                st.markdown(quizzes)
