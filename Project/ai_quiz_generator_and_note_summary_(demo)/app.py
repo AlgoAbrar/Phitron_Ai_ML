@@ -71,8 +71,6 @@ if pressed:
         with st.container(border=True):
             st.subheader("Audio Transcription")
 
-
-
             #the portion below will be replaced by API Call 
             with st.spinner("AI is generating audio transcript for you"):
 
