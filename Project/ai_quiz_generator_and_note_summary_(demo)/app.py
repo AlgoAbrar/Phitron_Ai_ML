@@ -80,6 +80,7 @@ if pressed:
                 generated_notes = generated_notes.replace("*","")
                 generated_notes = generated_notes.replace("-","")
                 generated_notes = generated_notes.replace("`","")
+                generated_notes = generated_notes.replace("$","")
 
 
                 audio_transcript = audio_transcription(generated_notes)
