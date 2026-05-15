@@ -1,0 +1,51 @@
+student_id,student_age,score,attendance,department,grade
+201,21,76,73,Physics,B
+202,18,90,82,Physics,A
+203,19,46,99,Biology,F
+204,21,60,80,Economics,C
+205,17,48,75,Economics,F
+206,19,78,77,Arts,B
+207,19,57,83,Physics,C
+208,21,43,85,Science,F
+209,16,64,84,Computer Science,C
+210,17,99,88,Computer Science,A
+211,21,53,74,Mathematics,C
+212,17,89,60,Physics,A
+213,17,97,84,Physics,A
+214,19,48,66,Computer Science,F
+215,18,65,68,Physics,B
+216,17,92,83,Arts,A
+217,20,41,60,English,F
+218,19,59,67,Commerce,C
+219,16,67,83,Economics,B
+220,18,86,70,Biology,A
+221,20,99,76,Mathematics,A
+222,20,46,67,English,F
+223,16,83,94,Computer Science,A
+224,18,47,94,Economics,F
+225,19,86,92,Physics,A
+226,15,74,64,Biology,B
+227,18,53,98,Physics,C
+228,16,56,87,Science,C
+229,20,75,66,Science,B
+230,19,89,68,Biology,A
+231,18,79,67,Biology,B
+232,15,43,71,Computer Science,F
+233,15,41,93,Biology,F
+234,17,45,92,Arts,F
+235,17,93,82,Physics,A
+236,21,81,83,English,A
+237,16,43,96,Chemistry,F
+238,18,93,94,Biology,A
+239,18,68,99,Mathematics,B
+240,21,57,81,Science,C
+241,20,65,86,Arts,B
+242,20,83,94,Economics,A
+243,21,73,60,Chemistry,B
+244,20,49,94,English,F
+245,17,75,96,Chemistry,B
+246,18,53,73,Biology,C
+247,21,70,62,Computer Science,B
+248,18,87,60,Science,A
+249,15,54,64,Science,C
+250,17,47,85,Economics,F
