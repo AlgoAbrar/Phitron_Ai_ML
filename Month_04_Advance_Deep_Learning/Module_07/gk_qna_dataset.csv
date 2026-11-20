@@ -1,0 +1,172 @@
+question,answer
+"What is the capital of ""France""?",Paris
+"What is the capital of ""Germany""?",Berlin
+"What is the capital of ""Italy""?",Rome
+"What is the capital of ""Spain""?",Madrid
+"What is the capital of ""Japan""?",Tokyo
+"What is the capital of ""Canada""?",Ottawa
+"What is the capital of ""Brazil""?",Brasilia
+"What is the capital of ""Australia""?",Canberra
+"What is the capital of ""India""?",New Delhi
+"What is the capital of ""China""?",Beijing
+"What is the capital of ""Russia""?",Moscow
+"What is the capital of ""United States""?",Washington DC
+"What is the capital of ""Mexico""?",Mexico City
+"What is the capital of ""Egypt""?",Cairo
+"What is the capital of ""Turkey""?",Ankara
+"What is the capital of ""Argentina""?",Buenos Aires
+"What is the capital of ""South Korea""?",Seoul
+"What is the capital of ""Indonesia""?",Jakarta
+"What is the capital of ""Pakistan""?",Islamabad
+"What is the capital of ""Bangladesh""?",Dhaka
+"What is the capital of ""Nepal""?",Kathmandu
+"What is the capital of ""Sri Lanka""?",Colombo
+"What is the capital of ""Thailand""?",Bangkok
+"What is the capital of ""Malaysia""?",Kuala Lumpur
+"What is the capital of ""Vietnam""?",Hanoi
+"What is the capital of ""UAE""?",Abu Dhabi
+"What is the capital of ""Iran""?",Tehran
+"What is the capital of ""Iraq""?",Baghdad
+"What is the capital of ""Saudi Arabia""?",Riyadh
+"What is the capital of ""Nigeria""?",Abuja
+"What is the capital of ""Kenya""?",Nairobi
+"What is the capital of ""Chile""?",Santiago
+Who discovered 'gravity'?,Isaac Newton
+Who invented the 'telephone'?,Alexander Graham Bell
+What is 'H2O' commonly called?,Water
+Which gas do plants absorb?,Carbon dioxide
+Which planet is known as the 'Red Planet'?,Mars
+Who painted the 'Mona Lisa'?,Leonardo da Vinci
+What is the largest ocean?,Pacific Ocean
+Who developed the 'theory of relativity'?,Albert Einstein
+What is 'AI' short for?,Artificial Intelligence
+What is 'ML' short for?,Machine Learning
+What is 'NLP' short for?,Natural Language Processing
+What does 'CPU' stand for?,Central Processing Unit
+What is 'RAM'?,Computer memory
+What does 'GPU' stand for?,Graphics Processing Unit
+What is a 'URL'?,Web address
+What does 'HTTP' stand for?,HyperText Transfer Protocol
+What is 'JSON' used for?,Data exchange
+What is 'SQL'?,Database query language
+What does 'API' mean?,Application Programming Interface
+Who invented the 'light bulb'?,Thomas Edison
+Who invented the 'airplane'?,Wright Brothers
+Who discovered 'penicillin'?,Alexander Fleming
+Who wrote 'Hamlet'?,William Shakespeare
+Who wrote 'Harry Potter'?,J K Rowling
+Which country is known as the 'Land of Rising Sun'?,Japan
+Which animal is called the 'King of Jungle'?,Lion
+Which animal is the largest on Earth?,Blue Whale
+Which bird cannot fly?,Ostrich
+Which animal is known for loyalty?,Dog
+Which fruit is typically red?,Apple
+Which fruit is yellow?,Banana
+Which organ pumps blood?,Heart
+Which gas do humans breathe?,Oxygen
+Which metal is liquid at room temperature?,Mercury
+Which instrument measures temperature?,Thermometer
+Which instrument measures pressure?,Barometer
+What is the main language of Brazil?,Portuguese
+What is the main language of Spain?,Spanish
+What is the main religion in Saudi Arabia?,Islam
+What is the national animal of Bangladesh?,Royal Bengal Tiger
+"Quick question: ""Who invented the 'light bulb'""?",Thomas Edison
+"""Who discovered 'penicillin'"" — do you know?",Alexander Fleming
+"Do you know, ""What is the largest ocean""?",Pacific Ocean
+"I was wondering, ""What is a 'URL'""?",Web address
+"Hey, what about this: ""Which instrument measures pressure""?",Barometer
+"""Who invented the 'telephone'"" — do you know?",Alexander Graham Bell
+"I was wondering, ""Who invented the 'light bulb'""?",Thomas Edison
+"Quick question: ""What is the main language of Spain""?",Spanish
+"Hey, what about this: ""What is a 'URL'""?",Web address
+"I was wondering, ""Which gas do humans breathe""?",Oxygen
+"I was wondering, ""Which organ pumps blood""?",Heart
+"Hey, what about this: ""What is the largest ocean""?",Pacific Ocean
+"Do you know, ""Who invented the 'telephone'""?",Alexander Graham Bell
+"Quick question: ""Who wrote 'Hamlet'""?",William Shakespeare
+"""Which instrument measures pressure"" — do you know?",Barometer
+"Can you tell me, ""What is the national animal of Bangladesh""?",Royal Bengal Tiger
+"Quick question: ""What is the main language of Brazil""?",Portuguese
+"Hey, what about this: ""Who developed the 'theory of relativity'""?",Albert Einstein
+"Hey, what about this: ""What is 'AI' short for""?",Artificial Intelligence
+"I was wondering, ""Which animal is known for loyalty""?",Dog
+"Do you know, ""What is a 'URL'""?",Web address
+"Quick question: ""Which gas do plants absorb""?",Carbon dioxide
+"I was wondering, ""Who invented the 'telephone'""?",Alexander Graham Bell
+"Do you know, ""Which fruit is yellow""?",Banana
+"Can you tell me, ""Which planet is known as the 'Red Planet'""?",Mars
+"Do you know, ""Which gas do plants absorb""?",Carbon dioxide
+"Can you tell me, ""What does 'CPU' stand for""?",Central Processing Unit
+"Hey, what about this: ""Who wrote 'Harry Potter'""?",J K Rowling
+"Do you know, ""What does 'GPU' stand for""?",Graphics Processing Unit
+"Quick question: ""Which gas do humans breathe""?",Oxygen
+"I was wondering, ""What is 'RAM'""?",Computer memory
+"Can you tell me, ""What is the largest ocean""?",Pacific Ocean
+"Quick question: ""Which metal is liquid at room temperature""?",Mercury
+"Quick question: ""What is 'ML' short for""?",Machine Learning
+"Hey, what about this: ""Which fruit is yellow""?",Banana
+"Hey, what about this: ""Which instrument measures temperature""?",Thermometer
+"""Which animal is the largest on Earth"" — do you know?",Blue Whale
+"""What is the largest ocean"" — do you know?",Pacific Ocean
+"""Which organ pumps blood"" — do you know?",Heart
+"Can you tell me, ""Who wrote 'Hamlet'""?",William Shakespeare
+"Do you know, ""What is the main language of Brazil""?",Portuguese
+"""Who painted the 'Mona Lisa'"" — do you know?",Leonardo da Vinci
+"Do you know, ""Which country is known as the 'Land of Rising Sun'""?",Japan
+"Quick question: ""Which animal is called the 'King of Jungle'""?",Lion
+"Can you tell me, ""Which fruit is yellow""?",Banana
+"Can you tell me, ""Who invented the 'light bulb'""?",Thomas Edison
+"Quick question: ""Who discovered 'penicillin'""?",Alexander Fleming
+"I was wondering, ""Who wrote 'Harry Potter'""?",J K Rowling
+"""What is the national animal of Bangladesh"" — do you know?",Royal Bengal Tiger
+"Hey, what about this: ""Which gas do plants absorb""?",Carbon dioxide
+"I was wondering, ""What is 'JSON' used for""?",Data exchange
+"Can you tell me, ""Who discovered 'gravity'""?",Isaac Newton
+"I was wondering, ""Who invented the 'airplane'""?",Wright Brothers
+"Do you know, ""Who invented the 'light bulb'""?",Thomas Edison
+"Can you tell me, ""Which gas do humans breathe""?",Oxygen
+"Hey, what about this: ""What is 'H2O' commonly called""?",Water
+"Quick question: ""What does 'GPU' stand for""?",Graphics Processing Unit
+"Hey, what about this: ""Who discovered 'gravity'""?",Isaac Newton
+"Can you tell me, ""What is a 'URL'""?",Web address
+"I was wondering, ""What does 'API' mean""?",Application Programming Interface
+"Can you tell me, ""What is 'RAM'""?",Computer memory
+"Can you tell me, ""What is 'AI' short for""?",Artificial Intelligence
+"Quick question: ""Who wrote 'Harry Potter'""?",J K Rowling
+"Hey, what about this: ""Who discovered 'penicillin'""?",Alexander Fleming
+"Do you know, ""What is 'H2O' commonly called""?",Water
+"Do you know, ""What is 'ML' short for""?",Machine Learning
+"I was wondering, ""What is 'NLP' short for""?",Natural Language Processing
+"Do you know, ""Which bird cannot fly""?",Ostrich
+"Do you know, ""Which metal is liquid at room temperature""?",Mercury
+"""Which planet is known as the 'Red Planet'"" — do you know?",Mars
+"Hey, what about this: ""Which animal is the largest on Earth""?",Blue Whale
+"""Which bird cannot fly"" — do you know?",Ostrich
+"Can you tell me, ""What is 'ML' short for""?",Machine Learning
+"I was wondering, ""What does 'CPU' stand for""?",Central Processing Unit
+"Do you know, ""What is the main religion in Saudi Arabia""?",Islam
+"Do you know, ""Who wrote 'Hamlet'""?",William Shakespeare
+"Can you tell me, ""What is 'H2O' commonly called""?",Water
+"I was wondering, ""Who wrote 'Hamlet'""?",William Shakespeare
+"Hey, what about this: ""Which planet is known as the 'Red Planet'""?",Mars
+"""Who invented the 'light bulb'"" — do you know?",Thomas Edison
+"Quick question: ""What is the largest ocean""?",Pacific Ocean
+"Hey, what about this: ""Who painted the 'Mona Lisa'""?",Leonardo da Vinci
+"I was wondering, ""What is 'ML' short for""?",Machine Learning
+"Hey, what about this: ""What does 'HTTP' stand for""?",HyperText Transfer Protocol
+"Hey, what about this: ""Who invented the 'telephone'""?",Alexander Graham Bell
+"""Which country is known as the 'Land of Rising Sun'"" — do you know?",Japan
+"Quick question: ""Which country is known as the 'Land of Rising Sun'""?",Japan
+"Do you know, ""Who wrote 'Harry Potter'""?",J K Rowling
+"Hey, what about this: ""What is 'RAM'""?",Computer memory
+"Quick question: ""Who invented the 'telephone'""?",Alexander Graham Bell
+"Quick question: ""Which organ pumps blood""?",Heart
+"Hey, what about this: ""What does 'CPU' stand for""?",Central Processing Unit
+"Can you tell me, ""Which instrument measures pressure""?",Barometer
+"I was wondering, ""Which country is known as the 'Land of Rising Sun'""?",Japan
+"Can you tell me, ""Which bird cannot fly""?",Ostrich
+"I was wondering, ""What is 'H2O' commonly called""?",Water
+"I was wondering, ""Which planet is known as the 'Red Planet'""?",Mars
+"Can you tell me, ""What is the main religion in Saudi Arabia""?",Islam
+"Quick question: ""Which animal is known for loyalty""?",Dog
